@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop</title>
+
+    <!-- Css -->
+    <link rel="stylesheet" href="/Css/style.css">
+    <link rel="stylesheet" href="/Css/cart.css">
+    <!-- Icon -->
+    <link rel="icon" href="/Icons/shoppingbag-icon.png">
+    <!-- *Script* -->
+    <script src="/Js/cart.js"></script>
+    <script src="/Js/products.js"></script>
+    <script src="/Js/script.js"></script>
+
+</head>
+
+<body>
+
+    <img id="Home-background" src="/Imgs/Background-Shop.jpg" alt="Ooo sorry, it looks like there is a problem :(">
+
+    <div id="backgroundDiv">
+        <img id="leftIcon" src="/Icons/shoppingbag-icon.png" alt="Ooops, there is a problem:)">
+        <a id="Shopping-bag-icon" onmousedown="OpenCloseBill();" href="#"><img id="rightIcon"
+                src="/Icons/shopping-bag.png"></a>
+
+        <nav id="NavBar">
+            <ul id="NavBar-container">
+                <li class="btn"><a class="navtitles" href="/index.html">Home</a></li>
+                <img id="line1" src="/OtherMats/Line 9.png" alt="">
+                <li class="btn"><a class="navtitles active" href="/Html/Shop.html">Shop</a></li>
+                <img id="line2" src="/OtherMats/Line 9.png" alt="">
+                <li class="btn"><a class="navtitles" href="/Html/AboutUs.html">About us</a></li>
+                <img id="line3" src="/OtherMats/Line 9.png" alt="">
+                <li class="btn"><a class="navtitles" href="/Html/Contacts.html">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!----- Unready ----->
+    <div id="searchbar">
+        <h3 id="search-ShoppingText">Search...</h3>
+        <img id="VerticalLine-Shop" src="/Icons/verticalline.png">
+        <svg id="magGlass" enable-background="new 0 0 512 512" height="512px" id="Layer_1" version="1.1"
+            viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g>
+                <ellipse cx="223.2" cy="223.2" fill="none" rx="62.2" ry="62.2" stroke="#000000" stroke-linecap="round"
+                    stroke-linejoin="round" stroke-miterlimit="10" stroke-width="10"
+                    transform="matrix(0.7071 -0.7071 0.7071 0.7071 -92.4615 223.2219)" />
+                <line fill="none" stroke="#000000" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10"
+                    stroke-width="10" x1="267.2" x2="351" y1="267.2" y2="351" />
+            </g>
+        </svg>
+    </div>
+
+    <!----- CART ----->
+
+    <div id="cart-wrap">
+        <!-- (B) PRODUCTS LIST -->
+        <div id="cart-products"></div>
+
+        <!-- (C) CURRENT CART -->
+        <!-- <div id="cart-items"></div> -->
+    </div>
+
+
+    <!-- (C) Bill Container -->
+    <div id="cart-items">
+        <div id="cart-item-text">Cart is empty</div>
+    </div>
+
+
+    <div id="emptyDiv">
+        <img id="shoppingCart-imgBackground" src="/Imgs/SoppingCart-background.jpg" alt="">
+        <p id="Empty-Text">Do you want to empty the whole cart?</p>
+        <button id="Btn-Yes" onmousedown="cart.nuke();">Yes</button>
+        <button id="Btn-No" onmousedown="CloseIt();">No</button>
+    </div>
+
+</body>
+
+</html>
