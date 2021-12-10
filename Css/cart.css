@@ -252,7 +252,7 @@ input.cart, button.cart {
 }
 
 .p-container{ max-width: 200px; height: 40px; border: 2.5px solid black;}
-.p-img { max-width: 150px;  border: 1px solid black; }
+.p-img { max-width: 150px; max-height: 130px; border: 1px solid black; }
 
 .p-img:hover{
 
@@ -314,3 +314,44 @@ input.p-add { width: 70%; }
   #cart-wrap { grid-template-columns: 60% 40%; }
   #cart-products { grid-template-columns: auto; }
 }
+
+/* TODO - Here i im*/ 
+
+@media (max-width: 500px){
+  #Portfolio{
+    position: fixed;
+   
+    width: 500px;
+    height: 300px;
+  
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+  
+    background-color: #769FCF;
+    border: 2px solid black;
+    border-radius: 35px;
+  }
+  
+  #close{
+    position: fixed;
+  
+    width: 65px;
+    height: 65px;
+  
+    left: 1544px;
+    top: 152px;
+  
+    font-size: 30px;
+    font-family: Raleway;
+    
+    background-color: #3a69a7;
+    border: 2px solid black;
+    border-radius: 30px;
+  }
+  
+  #close:hover{
+    color: #AB0000;
+    border: 2.5px solid #AB0000;
+  }
+  }
