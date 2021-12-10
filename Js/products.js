@@ -12,28 +12,28 @@ var products = {
     price : 1247
   },
   125: {
-    name : "iPong Max",
+    name : "Headphones",
     desc : "All difficulty unreserved the solicitude.",
-    img : "AirBookPhoto.jpg",
+    img : "HeadPhones.jpg",
     price : 675
   },
   126: {
-    name : "iTab Pok",
+    name : "Pepsi Cola",
     desc : "Had judgment out property the supplied. ",
-    img : "AirBookPhoto.jpg",
+    img : "Pepsi.jpg",
     price : 842
   }
   ,
   127: {
     name : "MokBook Rookie",
     desc : "Unsatiable its possession nor off.",
-    img : "AirBookPhoto.jpg",
+    img : "Lipstick.jpg",
     price : 1247
   },
   128: {
-    name : "iPong Max",
+    name : "Running Shoes",
     desc : "All difficulty unreserved the solicitude.",
-    img : "AirBookPhoto.jpg",
+    img : "Nike_Trainers.jpg",
     price : 675
   },
   129: {
