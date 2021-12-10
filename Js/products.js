@@ -31,10 +31,10 @@ var products = {
     price : 1247
   },
   128: {
-    name : "Running Shoes",
-    desc : "All difficulty unreserved the solicitude.",
-    img : "Nike_Trainers.jpg",
-    price : 675
+    name : "MokBook Rookie",
+    desc : "Unsatiable its possession nor off.",
+    img : "AirBookPhoto.jpg",
+    price : 1247
   },
   129: {
     name : "iTab Pok",
