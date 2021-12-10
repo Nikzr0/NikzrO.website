@@ -528,17 +528,18 @@
         height: 60%;
     }
 }
+
 @media (max-width: 500px){
     #NavBar {
         /* position: fixed; */
-        width: 350px;
+        width: 340px;
         height: 50px;
-        /* border-bottom: 3px solid rgb(79, 79, 79, 1);
-        border-left: 3px solid rgb(79, 79, 79, 1);
-        border-right: 3px solid rgb(79, 79, 79, 1);
-        background-color: rgb(171, 143, 115, 0.95);
-        border-radius: 0px 0px 80px 80px;
-        display: flex;
+        /* border-bottom: 3px solid rgb(79, 79, 79, 1); */
+        border-left: 2px solid rgb(79, 79, 79, 1);
+        border-right: 2px solid rgb(79, 79, 79, 1);
+        /* background-color: rgb(171, 143, 115, 0.95); */
+        border-radius: 0px 0px 40px 40px;
+        /* display: flex;
         justify-content: center;
         align-items: center;
         left: 50%;
@@ -601,7 +602,7 @@
         top: 50%;
         transform: translate(0, -50%);
         width: 42px;
-        right: 2%;
+        right: 1%;
     }
     
     #leftIcon {
@@ -611,7 +612,7 @@
         top: 50%;
         transform: translate(0, -50%);
         width: 30px;
-        left: 2%;
+        left: 1%;
     }
     
     .active {
