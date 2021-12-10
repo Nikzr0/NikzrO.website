@@ -118,6 +118,7 @@ var cart = {
 
             let myPhoto = cart.iURL + p.img;
             let heading = p.name;
+        
 
             part.onclick = function () {
                 newContainer1.style.display = "block"
@@ -137,6 +138,7 @@ var cart = {
                 itemPhoto.src = myPhoto;
                 
                 infoHeading.innerText = heading;
+                // infoText.innerText = 
             }
             item.appendChild(part);
 
