@@ -51,10 +51,10 @@ var cart = {
         addToCartBtn_Text.innerText = "Add to the cart";
         const infoLine = document.createElement("OtherMats\panoramLine.svg");
         const infoHeading = document.createElement("h2");
-        infoHeading.innerText = "The heading is working :3"
+        // infoHeading.innerText = "The heading is working :3"
         const infoTextContainer = document.createElement("div");
         const infoText = document.createElement("p");
-        infoText.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
+        // infoText.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
         const infoPriceContainer = document.createElement("div");
         const infoPriceText = document.createElement("p");
         infoPriceText.innerText = "Price: 12,34";
@@ -118,6 +118,7 @@ var cart = {
 
             let myPhoto = cart.iURL + p.img;
             let heading = p.name;
+            let productDescription = p.desc;
         
 
             part.onclick = function () {
@@ -138,7 +139,7 @@ var cart = {
                 itemPhoto.src = myPhoto;
                 
                 infoHeading.innerText = heading;
-                // infoText.innerText = 
+                infoText.innerText = productDescription;
             }
             item.appendChild(part);
 
