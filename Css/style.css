@@ -389,7 +389,7 @@
 }
 
 
-/* ----- About Us -----*/
+/* ----- About Us ----- */
 
 #AboutUs-Background {
     position: fixed;
@@ -421,9 +421,9 @@
     color: white;
     width: 100%;
     text-align: center;
-    /* left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%); */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
 }
 
 #SeeContacts-Container {
@@ -619,4 +619,6 @@
         color: rgb(255, 248, 220) !important;
         /* color: rgb(248, 91, 170); */
     }
-}
+
+
+} 
