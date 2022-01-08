@@ -1,90 +1,90 @@
 var products = {
-  123: {
+  1: {
     name : "AirBookPhoto",
     desc : "A really good laptop.",
     img : "MackBook.jpg",
     price : 999
   },
-  124: {
+  2: {
     name : "MokBook Rookie",
     desc : "Unsatiable its possession nor off.",
     img : "dummy-pdt-b.jpg",
     price : 1247
   },
-  125: {
+  3: {
     name : "Headphones",
     desc : "All difficulty unreserved the solicitude.",
     img : "HeadPhones.jpg",
     price : 675
   },
-  126: {
+  4: {
     name : "Pepsi Cola",
     desc : "Had judgment out property the supplied. ",
     img : "Pepsi.jpg",
     price : 842
   }
   ,
-  127: {
+  5: {
     name : "MokBook Rookie",
     desc : "Unsatiable its possession nor off.",
     img : "Lipstick.jpg",
     price : 1247
   },
-  128: {
+  6: {
     name : "Running Shoes",
     desc : "All difficulty unreserved the solicitude.",
     img : "Nike_Trainers.jpg",
     price : 675
   },
-  129: {
+  7: {
     name : "iTab Pok",
     desc : "Had judgment out property the supplied. ",
     img : "AirBookPhoto.jpg",
     price : 842
   },
-  130: {
+  8: {
     name : "iTab Pok",
     desc : "Had judgment out property the supplied. ",
     img : "AirBookPhoto.jpg",
     price : 842
   },
-  131: {
+  9: {
     name : "MokBook Rookie",
     desc : "Unsatiable its possession nor off.",
     img : "AirBookPhoto.jpg",
     price : 1247
   },
-  132: {
+  10: {
     name : "iPong Max",
     desc : "All difficulty unreserved the solicitude.",
     img : "AirBookPhoto.jpg",
     price : 675
   },
-  133: {
+  11: {
     name : "iTab Pok",
     desc : "Had judgment out property the supplied. ",
     img : "AirBookPhoto.jpg",
     price : 842
   },
-  134: {
+  12: {
     name : "MokBook Rookie",
     desc : "Unsatiable its possession nor off.",
     img : "AirBookPhoto.jpg",
     price : 1247
   },
-  135: {
+  13: {
     name : "iPong Max",
     desc : "All difficulty unreserved the solicitude.",
     img : "AirBookPhoto.jpg",
     price : 675
   },
-  136: {
+  14: {
     name : "iTab Pok",
     desc : "Had judgment out property the supplied. ",
     img : "AirBookPhoto.jpg",
     price : 842
   },
-  137: {
+  15: {
     name : "iTab Pok",
     desc : "Had judgment out property the supplied. ",
     img : "AirBookPhoto.jpg",
