@@ -242,10 +242,11 @@ input.cart, button.cart {
 
   font-size: 26px;
   font-family: Raleway;
-
+  width: 57%;
   left: 50%;
   top: 50%;
   transform: translate(-50%,-50%);
+  /* border: 2px solid black; */
 }
 
 /* TODO  */
