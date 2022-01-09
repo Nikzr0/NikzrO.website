@@ -333,7 +333,7 @@ input.p-add { width: 70%; }
   #cart-products { grid-template-columns: auto; }
 }
 
-@media (max-width: 500px){
+@media (max-width: 600px){
 
   #Portfolio{
     width: 380px;
