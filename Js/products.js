@@ -22,8 +22,7 @@ var products = {
     desc : "Had judgment out property the supplied. ",
     img : "Pepsi.jpg",
     price : 842
-  }
-  ,
+  },
   5: {
     name : "MokBook Rookie",
     desc : "Unsatiable its possession nor off. It is a really good an valuable product!",

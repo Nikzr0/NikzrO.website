@@ -15,7 +15,6 @@
   left: 0%;
   top: 22%;
 
-
   border: 2px solid black;
   border-radius: 20px;
   background-color: rgb(0, 0, 0, 0.2);
@@ -46,7 +45,7 @@ input.cart, button.cart {
 /* (B) PRODUCTS LIST*/
 
 
-/* Item info */
+/* TODO - Item info */
 
 #Portfolio{
   position: fixed;
@@ -63,7 +62,7 @@ input.cart, button.cart {
   border-radius: 35px;
 }
 
-#close{
+#close_btn{
   position: fixed;
 
   width: 65px;
@@ -80,11 +79,10 @@ input.cart, button.cart {
   border-radius: 30px;
 }
 
-#close:hover{
+#close_btn:hover{
   color: #AB0000;
   border: 2.5px solid #AB0000;
 }
-
 
 /* CONTENT */
 
@@ -225,7 +223,6 @@ input.cart, button.cart {
   /* border: 2px solid black; */
 }
 
-
 #infoPriceContainer{
   position: absolute;
 
@@ -251,9 +248,7 @@ input.cart, button.cart {
   transform: translate(-50%,-50%);
 }
 
-
-/* TODO here I am */
-
+/* TODO  */
 
 #cart-products {
   display: grid;
@@ -326,14 +321,13 @@ input.p-add { width: 70%; }
   font-size: 1.2em;
 }
 
-/* (D) RESPONSIVE */
+
+/* TODO - media query */
 
 @media screen AND (max-width: 768px) {
   #cart-wrap { grid-template-columns: 60% 40%; }
   #cart-products { grid-template-columns: auto; }
 }
-
-/* TODO - Here i im*/ 
 
 @media (max-width: 500px){
 
@@ -342,15 +336,15 @@ input.p-add { width: 70%; }
     height: 600px;
   
     left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
+    top: 10%;
+    transform: translate(-50%);
   
     background-color: #769FCF;
     border: 2px solid black;
     border-radius: 25px;
   }
   
-  #close{
+  #close_btn{
     position: fixed;
   
     width: 50px;
@@ -359,12 +353,7 @@ input.p-add { width: 70%; }
     left: 400px;
     top: 65px;
   }
-  
-  #close:hover{
-    color: #AB0000;
-    border: 2.5px solid #AB0000;
-  }
-    
+      
   /* CONTENT */
   
   #photoContainer{
@@ -403,29 +392,29 @@ input.p-add { width: 70%; }
   
     border-radius: 15px;
   }
+    
+  #infoHeading{
+    position: absolute;
   
+    font-size: 26px;
+    font-family: Raleway;
+  
+    left: 50%;
+    top: 4%;
+    transform: translate(-50%,-0%);
+  }
+
   #infoLine{
     width: 300px;
     height: 2px;
   
     left: 50%;
-    top: 60px;
+    top: 45px;
     transform: translate(-50%,0%);
     box-shadow: 5px 5px 10px 2px rgba(0,0,0,.6);
     background-color: black;
   }
   
-  #infoHeading{
-    position: absolute;
-  
-    font-size: 30px;
-    font-family: Raleway;
-  
-    left: 50%;
-    top: 5%;
-    transform: translate(-50%,-0%);
-  }
-    
   #infoTextContainer{
     position: absolute;
   
@@ -433,11 +422,12 @@ input.p-add { width: 70%; }
     height: 150px;
   
     left: 50%;
-    top: 20%;
+    top: 18%;
     transform: translate(-50%,0%);
   
     /* border: 2px solid black; */
     border-radius: 10px;
+    border: 0px solid black;
   }
   
   #infoText{
@@ -447,8 +437,8 @@ input.p-add { width: 70%; }
     font-family: Raleway;
      
     text-align: center;
-    top: 10%;
-    padding: 5px;
+    top: 5%;
+    padding: 8px;
   }
   
   #infoPriceContainer{

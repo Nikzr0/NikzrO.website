@@ -37,30 +37,25 @@ var cart = {
         cart.hItems = document.getElementById("cart-items");
 
         // INFO CONTAINER
-        const newContainer1 = document.createElement("div");
-        const newContainer2 = document.createElement("button");
-        newContainer2.innerText = "X";
+        const Portfolio = document.createElement("div");
+        const close_btn = document.createElement("button");
+        close_btn.innerText = "X";
         const photoContainer = document.createElement("div");
         const itemPhoto = document.createElement("img");
-        // itemPhoto.src = "/Imgs/banana.jpg";
         const itemInfoContainer = document.createElement("div");
-        const textContainer = document.createElement("div");
-
         const addToCartBtn = document.createElement("div");
         const addToCartBtn_Text = document.createElement("p");
         addToCartBtn_Text.innerText = "Add to the cart";
         const infoLine = document.createElement("OtherMats\panoramLine.svg");
         const infoHeading = document.createElement("h2");
-        // infoHeading.innerText = "The heading is working :3"
         const infoTextContainer = document.createElement("div");
         const infoText = document.createElement("p");
-        // infoText.innerText = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries."
         const infoPriceContainer = document.createElement("div");
         const infoPriceText = document.createElement("p");
         infoPriceText.innerText = "Price: 12,34";
 
-        newContainer1.style.display = "none";
-        newContainer2.style.display = "none";
+        Portfolio.style.display = "none";
+        close_btn.style.display = "none";
         photoContainer.style.display = "none";
         itemPhoto.style.display = "none";
         itemInfoContainer.style.display = "none";
@@ -73,8 +68,8 @@ var cart = {
         infoPriceContainer.style.display = "none";
         infoPriceText.style.display = "none";
 
-        newContainer1.setAttribute("id", "Portfolio");
-        newContainer2.setAttribute("id", "close");
+        Portfolio.setAttribute("id", "Portfolio");
+        close_btn.setAttribute("id", "close_btn");
         photoContainer.setAttribute("id", "photoContainer");
         itemPhoto.setAttribute("id", "itemPhoto");
         itemInfoContainer.setAttribute("id", "itemInfoContainer");
@@ -87,12 +82,12 @@ var cart = {
         infoPriceContainer.setAttribute("id", "infoPriceContainer")
         infoPriceText.setAttribute("id", "infoPriceText")
 
-        document.body.appendChild(newContainer1);
-        document.body.appendChild(newContainer2);
-        newContainer1.appendChild(photoContainer);
+        document.body.appendChild(Portfolio);
+        document.body.appendChild(close_btn);
+        Portfolio.appendChild(photoContainer);
         photoContainer.appendChild(itemPhoto);
-        newContainer1.appendChild(itemInfoContainer);
-        newContainer1.appendChild(addToCartBtn);
+        Portfolio.appendChild(itemInfoContainer);
+        Portfolio.appendChild(addToCartBtn);
         addToCartBtn.appendChild(addToCartBtn_Text);
         itemInfoContainer.appendChild(infoLine);
         itemInfoContainer.appendChild(infoHeading);
@@ -122,11 +117,12 @@ var cart = {
             let myPhoto = cart.iURL + p.img;
             let heading = p.name;
             let productDescription = p.desc;
+            let price = p.price;
         
 
             part.onclick = function () {
-                newContainer1.style.display = "block"
-                newContainer2.style.display = "block"
+                Portfolio.style.display = "block"
+                close_btn.style.display = "block"
                 photoContainer.style.display = "block"
                 itemPhoto.style.display = "block"
                 itemInfoContainer.style.display = "block"
@@ -143,15 +139,16 @@ var cart = {
                 itemPhoto.src = myPhoto;
                 infoHeading.innerText = heading;
                 infoText.innerText = productDescription;
+                infoPriceText.innerText = "Pricr: " + price + " $";
             }
             item.appendChild(part);
 
-            const BtnClose = document.querySelector("#close");
+            const BtnClose = document.querySelector("#close_btn");
             BtnClose.addEventListener("click", CloseBlock);
 
             function CloseBlock() {
                 document.getElementById("Portfolio").style.display = "none";
-                document.getElementById("close").style.display = "none";
+                document.getElementById("close_btn").style.display = "none";
             }
 
             // PRODUCT NAME
