@@ -43,8 +43,8 @@ var cart = {
         const photoContainer = document.createElement("div");
         const itemPhoto = document.createElement("img");
         // itemPhoto.src = "/Imgs/banana.jpg";
-
         const itemInfoContainer = document.createElement("div");
+        const textContainer = document.createElement("div");
 
         const addToCartBtn = document.createElement("div");
         const addToCartBtn_Text = document.createElement("p");
@@ -141,7 +141,6 @@ var cart = {
                 infoPriceText.style.display = "block";
 
                 itemPhoto.src = myPhoto;
-                
                 infoHeading.innerText = heading;
                 infoText.innerText = productDescription;
             }
@@ -154,16 +153,6 @@ var cart = {
                 document.getElementById("Portfolio").style.display = "none";
                 document.getElementById("close").style.display = "none";
             }
-
-            // const addToCheckOut = document.querySelector("#addToCart");
-            // addToCheckOut.addEventListener("click", OpenCheckoutPage);
-
-            // function OpenCheckoutPage() {
-            //     window.open("/Html/CheckOut.html", "_self");
-            // }
-
-
-
 
             // PRODUCT NAME
             part = document.createElement("div");

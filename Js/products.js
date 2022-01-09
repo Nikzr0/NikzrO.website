@@ -1,19 +1,19 @@
 var products = {
   1: {
-    name : "AirBookPhoto",
-    desc : "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    name : "Mouse",
+    desc : "Lorem Ipsum is simply dummy  losirnte la siena se si yajb saudgsd agd ahd ashdshsd asjdjs askjsdsdo aoisddi asdisdjsj dasjdsjds nce the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
     img : "MackBook.jpg",
-    price : 999
+    price : 129
   },
   2: {
     name : "MokBook Rookie",
-    desc : "Unsatiable its possession nor off.",
+    desc : "Unsatiable its possession nor off. It could be use every day during work or for entertainment!",
     img : "dummy-pdt-b.jpg",
     price : 1247
   },
   3: {
     name : "Headphones",
-    desc : "All difficulty unreserved the solicitude.",
+    desc : "All difficulty unreserved the solicitude. Fun and easy to use. Good for all ages!",
     img : "HeadPhones.jpg",
     price : 675
   },
@@ -26,7 +26,7 @@ var products = {
   ,
   5: {
     name : "MokBook Rookie",
-    desc : "Unsatiable its possession nor off.",
+    desc : "Unsatiable its possession nor off. It is a really good an valuable product!",
     img : "Lipstick.jpg",
     price : 1247
   },
