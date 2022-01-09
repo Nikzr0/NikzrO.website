@@ -40,7 +40,7 @@ var cart = {
         const newContainer1 = document.createElement("div");
         const newContainer2 = document.createElement("button");
         newContainer2.innerText = "X";
-
+        const photoContainer = document.createElement("div");
         const itemPhoto = document.createElement("img");
         // itemPhoto.src = "/Imgs/banana.jpg";
 
@@ -61,6 +61,7 @@ var cart = {
 
         newContainer1.style.display = "none";
         newContainer2.style.display = "none";
+        photoContainer.style.display = "none";
         itemPhoto.style.display = "none";
         itemInfoContainer.style.display = "none";
         addToCartBtn.style.display = "none";
@@ -74,6 +75,7 @@ var cart = {
 
         newContainer1.setAttribute("id", "Portfolio");
         newContainer2.setAttribute("id", "close");
+        photoContainer.setAttribute("id", "photoContainer");
         itemPhoto.setAttribute("id", "itemPhoto");
         itemInfoContainer.setAttribute("id", "itemInfoContainer");
         addToCartBtn.setAttribute("id", "addToCart")
@@ -87,7 +89,8 @@ var cart = {
 
         document.body.appendChild(newContainer1);
         document.body.appendChild(newContainer2);
-        newContainer1.appendChild(itemPhoto);
+        newContainer1.appendChild(photoContainer);
+        photoContainer.appendChild(itemPhoto);
         newContainer1.appendChild(itemInfoContainer);
         newContainer1.appendChild(addToCartBtn);
         addToCartBtn.appendChild(addToCartBtn_Text);
@@ -124,6 +127,7 @@ var cart = {
             part.onclick = function () {
                 newContainer1.style.display = "block"
                 newContainer2.style.display = "block"
+                photoContainer.style.display = "block"
                 itemPhoto.style.display = "block"
                 itemInfoContainer.style.display = "block"
                 addToCartBtn.style.display = "block";
@@ -168,10 +172,10 @@ var cart = {
             item.appendChild(part);
 
             // PRODUCT DESCRIPTION
-            part = document.createElement("div");
-            part.innerHTML = p.desc;
-            part.className = "p-desc";
-            item.appendChild(part);
+            // part = document.createElement("div");
+            // part.innerHTML = p.desc;
+            // part.className = "p-desc";
+            // item.appendChild(part);
 
             // PRODUCT PRICE
             part = document.createElement("div");

@@ -88,14 +88,27 @@ input.cart, button.cart {
 
 /* CONTENT */
 
+#photoContainer{
+  position: absolute;
+
+  width: 400px;
+  height: 400px;
+  top: 50px;
+  left: 50px;
+
+  /* border: 2px solid black; */
+}
+
 #itemPhoto{
   position: absolute;
   display: block;
 
-  margin: 50px;
+  max-width: 100%;  
+  max-height: 100%;
 
-  width: 400px;  
-  height: 400;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
 
   border: 2px solid black;
 }
@@ -206,6 +219,7 @@ input.cart, button.cart {
 
   text-align: center;
   top: 10%;
+  border: 2px solid black;
 }
 
 
