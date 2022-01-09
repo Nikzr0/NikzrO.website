@@ -396,7 +396,7 @@ input.p-add { width: 70%; }
   #infoHeading{
     position: absolute;
   
-    font-size: 26px;
+    font-size: 22px;
     font-family: Raleway;
   
     left: 50%;
@@ -458,12 +458,16 @@ input.p-add { width: 70%; }
   #infoPriceText{
     position: absolute;
   
-    font-size: 18px;
+    font-size: 19px;
     font-family: Raleway;
   
+    width: 57%;
+
     left: 50%;
     top: 50%;
     transform: translate(-50%,-50%);
+
+    /* border: 2px solid black; */
   }
   
   #addToCart{
