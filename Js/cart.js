@@ -83,7 +83,8 @@ var cart = {
         infoPriceText.setAttribute("id", "infoPriceText")
 
         document.body.appendChild(Portfolio);
-        document.body.appendChild(close_btn);
+        // document.body.appendChild(close_btn);
+        Portfolio.appendChild(close_btn);
         Portfolio.appendChild(photoContainer);
         photoContainer.appendChild(itemPhoto);
         Portfolio.appendChild(itemInfoContainer);

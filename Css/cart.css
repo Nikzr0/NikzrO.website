@@ -68,8 +68,11 @@ input.cart, button.cart {
   width: 65px;
   height: 65px;
 
-  left: 1544px;
-  top: 152px;
+  right: -2%;
+  top: -3%;
+
+  /* right: -20px;
+  top: -20px; */
 
   font-size: 30px;
   font-family: Raleway;
@@ -351,8 +354,8 @@ input.p-add { width: 70%; }
     width: 50px;
     height: 50px;
   
-    left: 400px;
-    top: 65px;
+    right: -5%;
+    top: -2%;
   }
       
   /* CONTENT */
